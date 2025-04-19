@@ -26,7 +26,7 @@ const startServer = () => {
 
   app.use(errorHandler);
 
-  const PORT = Number(env('PORT', 3000));
+  const PORT = Number(env('PORT', 8000));
 
   app.listen(PORT, () => console.log(`Servers is running on port ${PORT}`));
 };
